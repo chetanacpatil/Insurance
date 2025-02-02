@@ -11,10 +11,10 @@ st.title(" Health Insurance Cost Prediction")
 
 age = st.number_input("Age", min_value=18, max_value=100, value=30)
 
-AnyTransplant = st.selectbox("AnyTransplant",[0,1], format_func=lambda X: "Yes" if X == 1 else "No")
-AnyChronicDeseases = st.selectbox("AnyChronicDeseases",[0,1], format_func=lambda X: "Yes" if X == 1 else "No")
+AnyTransplant = st.selectbox("Any Transplant",[0,1], format_func=lambda X: "Yes" if X == 1 else "No")
+AnyChronicDeseases = st.selectbox("Any Chronic Deseases",[0,1], format_func=lambda X: "Yes" if X == 1 else "No")
 
-Historyofcancerinfamily = st.selectbox("Historyofcancerinfamily",[0,1], format_func=lambda X: "Yes" if X == 1 else "No")
+Historyofcancerinfamily = st.selectbox("History of cancer in family",[0,1], format_func=lambda X: "Yes" if X == 1 else "No")
 Numberofmajorsurgeries = st.number_input("Number of major surgeries", min_value=0, max_value=5, value=0)
 Height = st.number_input("Height (cm)", min_value=100.0, max_value=250.0, value=170.0)
 Weight = st.number_input("Weight (kg)", min_value=30.0, max_value=200.0, value=70.0)
