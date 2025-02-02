@@ -1,2 +1,2 @@
-# Insurance
- predict primium price
+# Insurance Project
+ Predict health insurance premium price
